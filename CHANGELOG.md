@@ -1,7 +1,8 @@
 x.y.z Release notes (yyyy-MM-dd)
 =============================================================
 ### Enhancements
-* None.
+* Greatly improve performance of reading AnyRealmValue and enum types from
+  Realm collections.
 
 ### Fixed
 * <How to hit and notice issue? what was the impact?> ([#????](https://github.com/realm/realm-cocoa/issues/????), since v?.?.?)
@@ -27,6 +28,7 @@ x.y.z Release notes (yyyy-MM-dd)
 * Conform `@ThreadSafe` and `ThreadSafeReference` to `Sendable`.
 * Allow using Swift enums which conform to `PersistableEnum` as the value type
   for all Realm collections.
+* `AnyRealmCollection` now conforms to `Encodable`.
 
 ### Fixed
 

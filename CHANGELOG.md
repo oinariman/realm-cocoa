@@ -29,6 +29,9 @@ x.y.z Release notes (yyyy-MM-dd)
 * Allow using Swift enums which conform to `PersistableEnum` as the value type
   for all Realm collections.
 * `AnyRealmCollection` now conforms to `Encodable`.
+* Greatly improve performance of reading AnyRealmValue and enum types from
+  Realm collections.
+* `AnyRealmCollection` now conforms to `Encodable`.
 
 ### Fixed
 
